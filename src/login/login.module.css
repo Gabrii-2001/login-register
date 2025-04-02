@@ -1,0 +1,31 @@
+.login_form {
+    background-color: #276565;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 3px;
+    padding: 0px 35px 35px 35px;
+}
+
+.login {
+    position: relative;
+}
+
+.login_form label {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.Submit_Form {
+    padding: 13px 50px;
+    font-size: 20px;
+    background-color: #003131;
+    border: none;
+}
+.Submit_Form:hover {
+    padding: 13px 50px;
+    font-size: 20px;
+    background-color: #000000;
+    border: none;
+}
+.text_danger {
+    color: #ffc107 !important;
+}
