@@ -40,3 +40,82 @@ a {
     color-scheme: dark;
   }
 }
+
+
+.wrapper {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFF7EF;
+  flex-wrap: wrap; /* mobile friendly */
+}
+.image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.All_Form {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  background-color: #020202;
+}
+
+.login {
+  width: 100%;
+  padding: 10px;
+  background-color: #f79826;
+  color: #000000;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+}
+
+.login:hover {
+  background-color: #ffffff;
+}
+
+/* Responsive: stack on mobile */
+@media (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .left {
+    order: 2;
+    text-align: center;
+  }
+
+  .right {
+    order: 1;
+  }
+}
+.Welcome{    font-size: 24px;    text-align: center;
+  color: #ffffff;}
+.powerful{font-size:16px;    text-align: center;
+  color: #ffffff;}
+.Forgot_Password{
+  color: #f4921c;
+  font-weight: 500;
+  font-size: 14px;
+  justify-content: end;
+  display: flex;
+  margin-bottom: 15px;
+}
+.have{    text-align: center;
+  margin-top: 15px;
+  color: #ffffff;}
+.have_an{    color: #f4921c;
+  font-weight: 500;
+  font-size: 14px;}
+label.form-check-label {
+  color: #f4921c;
+  font-weight: 500;
+  font-size: 14px;
+}
