@@ -63,7 +63,8 @@ export default function Login() {
             />
             <Link href="/loginregister/forgotpassword" className={styles.forgot_password}>Forgot Password?</Link>
             <button type="submit" className={styles.login}>Login</button>
-            <p className={styles.have}>Don't have an account? <Link href="/loginregister/register" className={styles.have_an}>Signup</Link></p>
+            {/* <p className={styles.have}>Don't have an account? <Link href="/loginregister/register" className={styles.have_an}>Signup</Link></p> */}
+            <p className={styles.have}> Don&apos;t have an account? <Link href="/loginregister/register" className={styles.have_an}>Signup</Link></p>
           </form>
           <p className={`${styles.have} mt-3 text-center`}>{message}</p>
         </div>
